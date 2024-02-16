@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Author', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+body {
+    background-image: url('../resources/gradient_blue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    background-color: white;
+    width: 70rem;
+    height: 30rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.signup-form {
+    height: 100%;
+    width: 30%;
+}
+
+.app-name {
+    display: flex;
+}
+
+.app-name__icon {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.app-name__icon img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.app-name__name {
+    margin-top: 2rem;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 800;
+}
+
+.signup-form__profile-icon {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signup-form__profile-icon img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.signup-form__welcome-div {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-form__welcome-message {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 700;
+}
+
+.signup-form__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input input{
+    width: 19rem;
+    height: 2.8rem;
+    margin: 0.7rem;
+    padding: 0.5rem;
+    opacity: 0.9;
+    border-radius: 0.4rem;
+}
+
+.action-buttons {
+    margin: 0.7rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    transition: ease-in-out 0.2s;
+    width: 7rem;
+    height: 1.8rem;
+    background-color: #1A7FD0;
+    border-radius: 0.8rem;
+}
+
+.login-button__text {
+    padding: 0.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button:hover {
+    transition: ease-in-out 0.2s;
+    background-color: #4ca2e8;
+    cursor: pointer;
+}
+
+.forgot-button {
+    transition: ease-in-out 0.2s;
+    margin-top: 0.3rem;
+}
+
+.forgot-button:hover {
+    transition: ease-in-out 0.2s;
+    color: #5e5e5e;
+    cursor: pointer;
+}
+
+.main-image {
+    width: 70%;
+    height: 100%;
+    background-color: #4ca2e8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+}

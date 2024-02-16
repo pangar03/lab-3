@@ -22,8 +22,9 @@ section {
 .login {
     width: 20rem;
     height: 35rem;
-    background-color: azure;
+    background-color: white;
     display: flex;
+    border-radius: 1rem;
 }
 
 .login-form {
